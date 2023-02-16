@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 #pragma warning disable 4014
 
 namespace TaskLib {
-    public static class TaskEx2 {
+    public static class TaskEx {
         /// <summary>
         /// 升级版 WhenAll，可以设置超时和任务自动终止。超时抛出 TimeoutException。
         /// 如果任务运行有异常，请自行捕获
