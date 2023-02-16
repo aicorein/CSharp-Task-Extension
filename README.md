@@ -1,10 +1,22 @@
 # CSharp-Task-Extension
 C# Task 扩展，封装实现了对原生 Task 的超时控制、自动取消和异常报告。
 
-引用：
+## 一、引用
+
+cs 文件引用：
 ```c#
 using TaskLib;
 ```
+
+引用 dll，确保 Include 名为：TaskLib：
+```xml
+<Reference Include="TaskLib">
+  <HintPath>TaskLib_xxx.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+```
+
+## 二、使用
 
 假设有如下的方法类：
 ```c#
