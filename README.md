@@ -16,7 +16,12 @@ using TaskLib;
 </Reference>
 ```
 
-## 二、使用
+## 二、说明
+查看详细的方法解释、说明，参考源文件：
+- [TaskLib_net7.cs](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net7.cs)
+- [TaskLib_net47&48.cs](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net47%2648.cs)
+
+## 三、使用
 
 假设有如下的方法类：
 ```c#
