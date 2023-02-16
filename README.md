@@ -3,12 +3,12 @@ C# Task 扩展，封装实现了对原生 Task 的超时控制、自动取消和
 
 ## 一、引用
 
-cs 文件引用：
+文件引用：
 ```c#
 using TaskLib;
 ```
 
-引用 dll，确保 Include 名为：TaskLib：
+`.csproj` 引用 dll，确保 Include 属性为 TaskLib：
 ```xml
 <Reference Include="TaskLib">
   <HintPath>TaskLib_xxx.dll</HintPath>
@@ -17,9 +17,9 @@ using TaskLib;
 ```
 
 ## 二、说明
-查看详细的方法解释、说明，参考源文件：
-- [TaskLib_net7.cs](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net7.cs)
-- [TaskLib_net47&48.cs](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net47%2648.cs)
+查看详细的方法解释、说明，参考源码：
+- [`TaskLib_net7.cs`](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net7.cs)
+- [`TaskLib_net47&48.cs`](https://github.com/AiCorein/CSharp-Task-Extension/blob/main/TaskLib_net47%2648.cs)
 
 ## 三、使用
 
