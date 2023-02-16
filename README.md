@@ -25,7 +25,7 @@ using TaskLib;
 
 假设有如下的方法类：
 ```c#
-class RandomNum {
+public class RandomNum {
     private static Random rd = new Random();
 
     // 获取随机数的一个异步方法
